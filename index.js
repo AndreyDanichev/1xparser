@@ -153,7 +153,7 @@ const parseGames = () => {
 await makeQuery(queries.createTableNumbers);
 await makeQuery(queries.createTableGames);
 
-await start(3000);
+start(80);
 
 parseNumbers();
 parseGames();
